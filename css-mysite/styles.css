@@ -1,0 +1,71 @@
+/* General Rules */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+h1, h2, h3 {
+    padding: 5%;
+}
+
+p {
+    padding: 3%;
+    font-size: 18px;
+}
+
+/* Title section */
+
+#title {
+    background-color: #1f4068;
+    padding: 5% 5%;
+    color: white;
+}
+#title .navbar-brand {
+    margin-right: 3%;
+    
+    font-size: 45px;
+    font-weight: bold;
+}
+
+#title .navbar .nav-link {
+    opacity: 0.6;
+    transition: 0.2s;
+}
+
+#title .navbar .nav-link:hover {
+    opacity: 1;
+    color: #e43f5a;
+}
+
+.navbar {
+    padding: 0 0 2rem;
+  }
+
+#title .row p {
+    padding-top: 5rem;
+    font-size: 18px;
+}
+#title .row img {
+    border-radius: 50%;    
+}
+
+/* Projects Section */
+
+/* Fun Stuff Section */
+#contact {
+    background-color: #e43f5a;
+    color: white;
+}
+
+/* Contact Section */
+#contact .row h3, #contact .row p {
+    padding: 4%;
+}
